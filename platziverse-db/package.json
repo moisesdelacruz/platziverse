@@ -4,7 +4,7 @@
   "description": "A Simple IoT ",
   "main": "Platform - DB Module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/moisesdelacruz/platziverse/issues"
   },
-  "homepage": "https://github.com/moisesdelacruz/platziverse#readme"
+  "homepage": "https://github.com/moisesdelacruz/platziverse#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
 }
